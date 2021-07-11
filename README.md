@@ -11,6 +11,8 @@
 	
 	`docker-compose -f docker-compose-client.yml up`
 	
+	`docker-compose -f docker-compose-batch.yml up` ***this batch is only used to update data's status***
+	
 	Please note that it might take time to start up all the images in the _**docker-compose**_ file depending on machine as well as network. 
 	
 	Especially, for the _***docker-compose-client.yml***_ please wait until the keycloak server is ready to use:
