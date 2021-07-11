@@ -1,0 +1,8 @@
+server:
+  port: 4002
+
+spring:
+  application:
+    name: EVEN-BUS
+  rabbitmq:
+    host: rabbitmq

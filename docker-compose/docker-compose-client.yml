@@ -1,0 +1,27 @@
+version: '3.7'
+services:
+    keycloak:
+        container_name: keycloak
+        image: jboss/keycloak
+        ports: 
+            - "8080:8080"        
+        environment:            
+            KEYCLOAK_USER: minhnk
+            KEYCLOAK_PASSWORD: khanhminh
+        restart: always
+        networks:
+            - service-compose-network
+
+    angular-client:
+        container_name: angular-client
+        image: minhnkh/client-images:angular-client        
+        ports:
+            - "4200:4200"
+        depends_on: 
+            - keycloak       
+        restart: always        
+        networks:
+            - service-compose-network
+    
+networks:
+    service-compose-network:

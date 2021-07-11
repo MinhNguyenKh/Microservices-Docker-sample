@@ -1,0 +1,6 @@
+{
+    "/api": {
+        "target": "http://keycloak:8080/",
+        "secure": false
+    }
+}

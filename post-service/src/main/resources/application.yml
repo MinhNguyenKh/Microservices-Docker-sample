@@ -1,0 +1,10 @@
+server:
+  port: 4000
+
+spring:
+  application:
+    name: POST-SERVICE
+  zipkin:
+    base-url: http://zipkin:9411/
+  rabbitmq:
+    host: rabbitmq

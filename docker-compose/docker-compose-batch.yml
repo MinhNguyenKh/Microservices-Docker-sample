@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+    batch:
+        container_name: batch
+        image: minhnkh/batch-images:batch
+        ports:
+            - "8081:8081"            
+        restart: always
+        networks:
+            - service-compose-network            
+
+networks:
+    service-compose-network:
+
+
+
+        
