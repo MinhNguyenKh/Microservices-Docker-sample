@@ -20,7 +20,7 @@
 	![image](https://user-images.githubusercontent.com/67884799/125185273-f038f580-e25e-11eb-8b5a-1d2f4142bf21.png)
 
 2. ### Keycloak server configuration:
-* Open browser then access the link: http://localhost:8080 and go to Admin Console page to create ***Realm***:
+* Open browser then access the link: http://localhost:8080 and login with account _***minhnk/khanhminh***_ then go to Admin Console page to create ***Realm***:
 
 ![image](https://user-images.githubusercontent.com/67884799/125185330-473eca80-e25f-11eb-8d1e-0b6c8b0a0529.png)
 
