@@ -42,5 +42,5 @@ Choose ***angular-client*** in ***Client Roles*** and select ***ADMIN*** role if
 
 ![image](https://user-images.githubusercontent.com/67884799/125399627-d24ccb80-e3eb-11eb-9cc4-5e8475652e0a.png)
 
-2. ### Access the project
+3. ### Access the project
 * Open browser and access the link: http://localhost:4200 login with your own account which was created in previous step to use the project
