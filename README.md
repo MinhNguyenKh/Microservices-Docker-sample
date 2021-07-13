@@ -20,33 +20,14 @@
 	![image](https://user-images.githubusercontent.com/67884799/125185273-f038f580-e25e-11eb-8b5a-1d2f4142bf21.png)
 
 2. ### Keycloak server configuration:
-* Open browser then access the link: http://localhost:8080 and login with account _***minhnk/khanhminh***_ then go to Admin Console page to create ***Realm***:
 
-![image](https://user-images.githubusercontent.com/67884799/125185330-473eca80-e25f-11eb-8d1e-0b6c8b0a0529.png)
+* Create _***User***_:
 
-Please make sure that the name of Realm is the same as the image: ***demo-keycloak***
+  Open browser then access the link: http://localhost:8080 then click on Administration Console and login with account _***minhnk/khanhminh***_ 
 
-![image](https://user-images.githubusercontent.com/67884799/125185385-853bee80-e25f-11eb-928e-3ec4ef3f491a.png)
+![image](https://user-images.githubusercontent.com/67884799/125399212-3d49d280-e3eb-11eb-9f0a-ceb975a23829.png)
 
-* Create _***Client***_: Go to _***Client***_ tab to create client:
-
-![image](https://user-images.githubusercontent.com/67884799/125185460-df3cb400-e25f-11eb-81ea-bcd952f61f67.png)
-
-Please make sure that the _***Client ID***_ and _***Root URL***_ are the same as the image below:
-
-![image](https://user-images.githubusercontent.com/67884799/125185470-efed2a00-e25f-11eb-82da-80bb058c8c22.png)
-
-* Create _***Client Role***_: After creating _***Client***_ click on _***Role***_ tab to create role for this client:
-
-![image](https://user-images.githubusercontent.com/67884799/125185518-3f335a80-e260-11eb-84e9-8e01f0ede328.png)
-
-![image](https://user-images.githubusercontent.com/67884799/125185521-45c1d200-e260-11eb-8d92-7273ed85e966.png)
-
-Please make sure that the role name is the same as the image below:
-
-![image](https://user-images.githubusercontent.com/67884799/125185523-4b1f1c80-e260-11eb-8f9b-ee02505b2748.png)
-
-* Create _***User***_
+After that choose ***Users*** tab to create your own user
 
 You can fill whatever user's information you want in this section:
 
@@ -57,9 +38,9 @@ Then click on tab _***Credentials***_ and fill your password, turn of Temporary 
 ![image](https://user-images.githubusercontent.com/67884799/125185592-b0730d80-e260-11eb-9375-c5d5b6ba2110.png)
 
 After that click on tab _***Roles Mapping***_ to assign role to your user
-Choose ***angular-client*** in ***Client Roles*** and select the role that you created in the previous step
+Choose ***angular-client*** in ***Client Roles*** and select ***ADMIN*** role if you select ***USER*** role, you can only see posts without creating permission.
 
-![image](https://user-images.githubusercontent.com/67884799/125185653-05168880-e261-11eb-8176-1e711a221b50.png)
+![image](https://user-images.githubusercontent.com/67884799/125399627-d24ccb80-e3eb-11eb-9cc4-5e8475652e0a.png)
 
 2. ### Access the project
-* Open browser and access the link: http://localhost:4200 to use the project
+* Open browser and access the link: http://localhost:4200 login with your own account which was created in previous step to use the project
